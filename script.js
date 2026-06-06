@@ -1,46 +1,18 @@
 console.log("Portfolio Loaded");
-/* ACTIVE NAV LINK */
 
-.active-link{
-    color:#06b6d4 !important;
-}
+AOS.init({
+    duration: 1000,
+    once: true
+});
 
-/* SCROLL TOP BUTTON */
-
-.scroll-top{
-    position:fixed;
-    bottom:25px;
-    right:25px;
-
-    width:50px;
-    height:50px;
-
-    border:none;
-    border-radius:50%;
-
-    background:linear-gradient(
-        135deg,
-        #7c3aed,
-        #06b6d4
-    );
-
-    color:white;
-    font-size:22px;
-    cursor:pointer;
-
-    opacity:0;
-    visibility:hidden;
-
-    transition:.3s;
-
-    z-index:1000;
-}
-
-.scroll-top.show{
-    opacity:1;
-    visibility:visible;
-}
-
-.scroll-top:hover{
-    transform:translateY(-5px);
-}
+new Typed("#typing", {
+    strings: [
+        "Machine Learning Enthusiast",
+        "Data Science Student",
+        "Python Developer",
+        "AI Explorer"
+    ],
+    typeSpeed: 60,
+    backSpeed: 40,
+    loop: true
+});
