@@ -1,62 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Samar Babar Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar Babar | ML Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="container">
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Samar Babar</div>
 
-    <div class="logo">Samar Babar</div>
-
-    <nav class="menu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-  </div>
-</header>
+    <!-- Home -->
+    <section id="home" class="hero">
 
-<!-- HOME -->
-<section id="home" class="section">
-  <h1>Hi, I'm Samar Babar</h1>
-  <p>Machine Learning Enthusiast | Python Developer</p>
-</section>
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Samar Babar</span></h1>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h2>About</h2>
-  <p>ML Engineer aspiring with passion for AI, Data Science and Python.</p>
-</section>
+            <h2>Machine Learning Enthusiast | Data Science Student</h2>
 
-<!-- SKILLS -->
-<section id="skills" class="section">
-  <h2>Skills</h2>
-  <p>Python, NumPy, Pandas, ML Models, Data Cleaning</p>
-</section>
+            <p>
+                Passionate about Machine Learning, Data Analysis,
+                and building intelligent solutions using Python.
+                I enjoy transforming data into meaningful insights
+                and creating predictive models for real-world problems.
+            </p>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <h2>Projects</h2>
-  <p>Sales Forecasting</p>
-  <p>News Classification</p>
-  <p>Fraud Detection</p>
-</section>
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Email: samarbabar02@gmail.com</p>
-</section>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            I am a Computer Science undergraduate with a strong interest
+            in Machine Learning, Data Science, and Artificial Intelligence.
+            My experience includes predictive modeling, classification systems,
+            synthetic data generation, and data-driven applications.
+        </p>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>Linear Regression</li>
+                    <li>Logistic Regression</li>
+                    <li>Decision Tree</li>
+                    <li>KNN</li>
+                    <li>Naive Bayes</li>
+                    <li>Random Forest</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>Data Cleaning</li>
+                    <li>EDA</li>
+                    <li>Feature Engineering</li>
+                    <li>Model Evaluation</li>
+                    <li>Data Visualization</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Libraries & Tools</h3>
+                <ul>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Seaborn</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="card">
+            <h3>Machine Learning Intern</h3>
+            <p><strong>Itsolera</strong> | 3 Months</p>
+
+            <ul>
+                <li>Worked on machine learning projects.</li>
+                <li>Performed data preprocessing and feature engineering.</li>
+                <li>Assisted in model training and evaluation.</li>
+                <li>Worked with real-world datasets.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="card">
+                <h3>📊 Sales Forecasting System</h3>
+                <p>Predicted future sales trends using machine learning techniques.</p>
+            </div>
+
+            <div class="card">
+                <h3>📰 News Classification System</h3>
+                <p>Automatically classified news articles into categories.</p>
+            </div>
+
+            <div class="card">
+                <h3>📈 ML Model Comparison System</h3>
+                <p>Compared multiple ML algorithms using evaluation metrics.</p>
+            </div>
+
+            <div class="card">
+                <h3>💳 Fraud Detection using CTGAN</h3>
+                <p>Used synthetic data generation to improve fraud detection.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="card">
+            <h3>BS Computer Science</h3>
+            <p>Expected Graduation: 2028</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-links">
+
+            <a href="mailto:samarbabar02@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                Email
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/samar-babar-3373aa351/"
+                target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+        </div>
+
+    </section>
 
 </body>
 </html>
