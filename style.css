@@ -1,63 +1,68 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
 }
 
-/* NAVBAR FIXED TOP */
+body {
+  background: #0f172a;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar */
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #1e293b;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  z-index: 1000;
+  background: #111827;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bold;
   color: #38bdf8;
 }
 
-.navbar nav {
+.nav-links {
+  list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.navbar nav a {
+.nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  transition: 0.3s;
 }
 
-.navbar nav a:hover {
+.nav-links a:hover {
   color: #38bdf8;
 }
 
-/* HERO spacing fix */
-.hero {
-  padding: 140px 20px 80px;
+/* Sections */
+.section {
+  padding: 60px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #1e293b, #0f172a);
 }
 
-.section {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 20px;
-  background: #111827;
+.home {
+  padding: 100px 20px;
+  background: #1e293b;
+}
+
+/* Cards */
+.card {
+  background: #1e293b;
+  margin: 10px auto;
+  padding: 15px;
+  width: 60%;
   border-radius: 10px;
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1e293b;
+/* Contact links */
+a {
+  color: #38bdf8;
 }
