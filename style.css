@@ -558,3 +558,34 @@ footer{
 .scroll-top{
     ...
 }
+.menu-btn{
+    display:none;
+    font-size:24px;
+    cursor:pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:70px;
+        right:0;
+        width:220px;
+        background:#111827;
+
+        display:none;
+        flex-direction:column;
+        text-align:center;
+        padding:20px 0;
+        gap:15px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
